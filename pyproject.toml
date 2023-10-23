@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "fastapi-project2"
+version = "0.1.0"
+description = ""
+authors = ["Eduardo Marques <marques.barbosa@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.1"
+uvicorn = "^0.23.2"
+sqlalchemy = "^2.0.21"
+psycopg2-binary = "^2.9.7"
+pytest = "^7.4.2"
+alembic = "^1.12.0"
+python-decouple = "^3.8"
+httpx = "^0.25.0"
+passlib = "^1.7.4"
+python-jose = "^3.3.0"
+python-multipart = "^0.0.6"
+fastapi-pagination = "^0.12.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
